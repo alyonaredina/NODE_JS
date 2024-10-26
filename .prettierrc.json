@@ -1,4 +1,6 @@
 {
+    
+
     "arrowParens": "avoid",
     "bracketSpacing": true,
     "endOfLine": "lf",
@@ -16,5 +18,26 @@
     "trailingComma": "es5",
     "useTabs": false,
     "vueIndentScriptAndStyle": true,
-    "embeddedLanguageFormatting": "auto"
+    "embeddedLanguageFormatting": "auto",
+    
+   
+    "editor.formatOnSave": false, 
+    "editor.formatOnPaste": false, 
+    "editor.codeActionsOnSave": [], 
+    "editor.defaultFormatter": null,    
+    "prettier.enable": true, 
+    "eslint.enable": true,    
+    "eslint.format.enable": true, 
+    "eslint.run": "onType", 
+    "eslint.probe": [ 
+        "javascript"
+    ],
+    "eslint.rules.customizations": [       
+        {"rule": "prettier/prettier", "severity": "info"}
+    ],
+    "[javascript]": {        
+        "editor.formatOnSave": true,
+        "editor.formatOnPaste": true,
+        "editor.defaultFormatter": "dbaeumer.vscode-eslint"
+    }
 }
